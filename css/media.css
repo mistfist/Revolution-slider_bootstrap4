@@ -1,0 +1,107 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.bg-wrapper{margin: 0 100px;}
+	.bg-section1{margin-top: 100px;}
+	.rev_slider_wrapper .hesperiden.tparrows {margin-top: -200px}
+}
+
+@media only screen and (max-width : 1024px) {
+	.wrapper-search{margin-right: 0px;background-color: #2d7a8cbd;background-image:none;height: 35px;}
+	.tp-resizeme.slide-style {margin-top: 120px !important;margin-left:30px !important;}
+	.rev_slider_wrapper .hesperiden.tparrows {margin-top: -640px !important;}
+}
+
+@media only screen and (max-width : 1000px) {
+	.bg-wrapper{width: 100%;margin: 0px; }
+	.bottom-nav li {margin-right: 7px;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.section3 .col-md-4 .btn-footer {padding: 10px 30px;}
+.social .fa {margin-left: 0px;}
+
+}
+
+@media only screen and (max-width : 976px) {
+	.bg-2 h2 {padding-top: 44px;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+	.wrapper-search,.wrapper-nav{display: none;}
+	#menuToggle{display:block;top:22px;float: right;right: 20px;}
+	.tp-resizeme.slide-style {margin-top: 220px !important;margin-left:30px !important;}
+	.rev_slider_wrapper .hesperiden.tparrows {margin-top: -540px !important;}
+	.bg-2 h2 {padding-top: 25px !important;}
+	.bg-3 h2, .bg-1 h2 {padding-top: 77px !important;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.btn-footer {padding: 10px 20px;}
+.tp-resizeme.slide-style {margin-top: 420px !important;margin-left:30px !important;width:320px;}
+.rev_slider_wrapper .hesperiden.tparrows {margin-top: -240px !important;}
+.bg-1 h2 {margin-top:100px !important;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.logo-img {margin-left: 0px;}
+.bg-2 h2 {padding-top: 43px;}
+.bg-1 h2 {margin-top:200px !important;}
+.tp-resizeme.slide-style {margin-top: 720px !important;margin-left:30px !important;width:220px;}
+.rev_slider_wrapper .hesperiden.tparrows {margin-top: -40px !important;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
